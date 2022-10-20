@@ -1,65 +1,208 @@
-*{
-    margin: 0px;
-    padding:0px;   
-    font-family: 'Gilroy-medium', sans-serif;
+/* nav and universal css */
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Gilroy-medium", sans-serif;
+} 
+body{
+    
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
 }
 
-.main-section{
-    background-color: #FCEED5;
-    height: 100vh;
+.main-section {
+  height: 695px;
+
+  background-color: antiquewhite;
+  position: relative;
+  z-index: -2;
 }
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 130px;
-    
-    
-    
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 130px;
+  z-index: 2;
 }
 nav ul {
-    list-style: none;  
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-nav ul li{
-    margin-right: 48px;
-    font-family: 'Gilroy-bold', sans-serif;
-    color: #003459;
-    
-}
-nav  a{
-    text-decoration: none;
-    cursor: pointer;
+nav ul li {
+  margin-right: 48px;
+  font-family: "Gilroy-bold", sans-serif;
+  color: #003459;
 }
 
-.search-bar{
-    padding: 12px 64px;
-    border: none;
-    border-radius: 46px;
-    font-size: 14px;
-    }
+.search-bar {
+  padding: 12px 64px;
+  border: none;
+  border-radius: 46px;
+  font-size: 14px;
+}
 
 .nav-btn {
-background-color: #003459;
-color: white;
-padding: 12px 48px;
-border-radius: 46px;
-font-family: 'Gilroy-bold', sans-serif;
-cursor: pointer;
-
+  background-color: #003459;
+  color: white;
+  padding: 12px 48px;
+  border-radius: 46px;
+  font-family: "Gilroy-bold", sans-serif;
+  cursor: pointer;
 }
 .currency {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.currency p {
+  font-family: "Gilroy-bold", sans-serif;
+  margin-left: 5px;
+  color: #003459;
+}
+
+/* hero section styling */
+
+.hero {
+  display: flex;
+  height: 100vh;
+}
+.R3 {
+  position: absolute;
+  z-index: -1;
+  margin: 80px 112px;
+}
+.lefthero {
+  margin-left: 130px;
+  position: relative;
+  margin-top: 80px;
+}
+
+h1 {
+  font-size: 60px;
+  color: #003459;
+
+  width: max-content;
+  font-family: "Gilroy-Heavy", sans-serif;
+}
+h2 {
+  color: #003459;
+  font-size: 46px;
+  font-family: "Gilroy-medium", sans-serif;
+}
+.lefthero p {
+  font-size: 16px;
+  font-family: "Gilroy-medium", sans-serif;
+  width: max-content;
+  color: #242b33;
+  line-height: 24px;
+  margin-top: 24px;
+  margin-bottom: 34px;
+}
+.btn-container {
+  display: flex;
+  align-items: center;
+}
+.acntbtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 28px 10px;
+  gap: 8px;
+  border: 1.5px solid #003459;
+  border-radius: 57px;
+  background-color: antiquewhite;
+  font-family: "Gilroy-medium", sans-serif;
+  font-size: 16px;
+}
+.expbtn {
+  display: flex;
+  flex-direction: row;
+  padding: 15px 30px;
+
+  gap: 10px;
+  background: #003459;
+  border-radius: 57px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gilroy-medium", sans-serif;
+  font-size: 16px;
+  width: 163px;
+  margin-left: 20px;
+  border: none;
+}
+
+.righthero {
+  max-width: fit-content;
+  max-height: fit-content;
+}
+
+.main-img {
+  position: absolute;
+  top: 84px;
+  left: 620px;
+}
+.R2 {
+  position: absolute;
+  right: 50px;
+  top: 210px;
+}
+.R1 {
+  position: absolute;
+  right: 145px;
+  top: 280px;
+}
+.R6 {
+  position: absolute;
+  right: 728px;
+  top: 200px;
+}
+.R7 {
+  position: absolute;
+  right: 727px;
+  top: 209px;
+}
+.R8 {
+  position: absolute;
+  top: 600px;
+}
+
+.R9 {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+} 
+
+/* second section ...pets  */
+
+.s2-container{
+    margin-left: 130px;
+    background-color: #FDFDFD;
+}
+ 
+.text-button{
     display: flex;
-    align-items: center ;
-    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
     
 }
- .currency p{
-    font-family: 'Gilroy-bold', sans-serif;
-    margin-left: 5px;
+.whats-new p {
+    font-size: 16px;
+    color: black;
+    line-height: 24px;
+    
+}
+.text-2{
     color: #003459;
-
- }
+    font-size: 24px;
+    line-height: 36px;
+    font-family: "Gilroy-bold", sans-serif;
+} 
+ 
